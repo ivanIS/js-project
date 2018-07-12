@@ -27,7 +27,7 @@ function sayHello0() {
         console.log("Hello!");
     }
 }
-// Invoke, using a varable
+// Invoke, using a variable
 const someHello = sayHello0();
 someHello();
 // Invoke, using a double parentheses
