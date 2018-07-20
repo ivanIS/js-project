@@ -36,10 +36,36 @@ sayHello0()();
 /**
  * Example | Using functions document.querySelectorAll(), document.querySelector() and var.textContent
  */
-var myHeadings = document.querySelectorAll('h1.header-1');document.querySelectorAll('h1.header-1');
+var myHeadings = document.querySelectorAll('h1.header-1');
+console.log(myHeadings);
 myHeadings.forEach((element, index) => {
     element.textContent = 'Hello world! for header-1 group ' + index;
 });
 
 var myHeading = document.querySelector('h1.header-2');
 myHeading.textContent = 'Hello world! for header-2';
+
+/**
+ * Hello World function
+ * 
+ * @param {*} yourname 
+ */
+function greetMe(yourname) {
+    alert ("Hello " + yourname);
+}
+
+greetMe("World");
+
+
+
+
+
+
+// console.log();
+// alert();
+// document.querySelector();
+// document.querySelectorAll();
+// .textContent
+// .forEach(element, index);
+// parseIntt();
+// parseFloat();
